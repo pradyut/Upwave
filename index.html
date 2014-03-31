@@ -1,0 +1,68 @@
+<!doctype html>
+<html ng-app='Upwave'>
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src='https://ajax.googleapis.com/ajax/libs/angularjs/1.2.15/angular.min.js'></script>
+    
+
+    <script src='js/app/MainController.js'></script>
+
+    <link href="reset.css" rel="stylesheet">
+    
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body ng-controller="MainController">
+  	<div id='wrapper'>
+  		<div class='card-container'>
+	   		<div class='card'>
+	   			<div class='glyph-container'>
+		   			<div ng-class="card1" class='glyph'></div>
+		   		</div>
+	   			<div class='select'>
+	   				<select ng-model="card1" ng-options="g for g in glyphs"></select><br>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<div class='card-container'>
+	   		<div class='card'>
+	   			<div class='glyph-container'>
+		   			<div ng-class="card2" class='glyph'></div>
+		   		</div>
+	   			<div class='select'>
+	   				<select ng-model="card2" ng-options="g for g in glyphs"></select><br>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<div class='card-container'>
+	   		<div class='card'>
+	   			<div class='glyph-container'>
+		   			<div ng-class="card3" class='glyph'></div>
+		   		</div>
+	   			<div class='select'>
+	   				<select ng-model="card3" ng-options="g for g in glyphs"></select><br>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<div class='card-container'>
+	   		<div class='card'>
+	   			<div class='glyph-container'>
+		   			<div ng-class="card4" class='glyph'></div>
+		   		</div>
+	   			<div class='select'>
+	   				<select ng-model="card4" ng-options="g for g in glyphs"></select><br>
+	   			</div>
+	   		</div>
+	   	</div>
+	   	<div class='card-container'>
+	   		<div class='card'>
+	   			<div class='glyph-container'>
+		   			<div ng-class="card5" class='glyph'></div>
+		   		</div>
+	   			<div class='select'>
+	   				<select ng-model="card5" ng-options="g for g in glyphs"></select><br>
+	   			</div>
+	   		</div>
+	   	</div>
+   	</div>
+  </body>
+  </html>
